@@ -13,7 +13,7 @@
 
 	REQUIRES: jquery.js (tested with 1.4.2), Raphael JS (tested with 1.5.2)
 
-	SYNTAX: $(selector).spinner(options);     // Creates new drop shadows
+	SYNTAX: $(selector).spinner(options);     // Creates new spinner
 
 	OPTIONS:
 
