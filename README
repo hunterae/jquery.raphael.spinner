@@ -1,0 +1,44 @@
+VERSION: Raphael Spinner jQuery Plugin 1.0
+
+REQUIRES: jquery.js
+
+SYNTAX: $(selector).spinner(options);     // Creates new drop shadows
+
+OPTIONS:
+
+  innerRadius : integer (default = 6) 
+  outerRadius : integer (default = 12) 
+  dashes      : integer (default = 12) 
+  strokeWidth : integer (default = 2) 
+  color       : string (default = "#333")
+  
+See http://raphaeljs.com/spin-spin-spin.html for a demo usage of these parameters
+(innerRadius is called "Radius 1" there and outerRadius is called "Radius 2" there)  
+
+The innerRadius parameter specifies the distance between the inner most point in the
+spinner and the start of the dashes.
+
+The outerRadius parameter specifies the length of the dashes.
+
+The dashes parameter specifies the number of dashes that make up the spinner. 
+
+The strokeWidth parameter specifies how thick the dashes of the spinner are.
+
+The color parameter specifies the color of the spinner.
+
+EXPLANATION:
+
+This jQuery plug-in leverages Raphaël (http://raphaeljs.com/) to very easily 
+create custom-tailored spinners that have your desired color, radii, stroke
+widths, and number of dashes.
+
+A sample usage of this plugin would be:
+
+$(".some-spinner-class").spinner({innerRadius: 50, outerRadius: 100, dashes: 40, strokeWidth: 4});
+
+Please note that whatever element you specify in the jQuery selector will not be replaced with the spinner;
+rather it will merely draw the Raphael canvas within that element.
+			
+AUTHOR: Andrew Hunter (hunterae@gmail.com) and Todd Fisher (todd@captico.com) 
+Thanks to RaphaelJS!!!!
+This work is in the public domain, and it is not supported in any way. Use it at your own risk.
