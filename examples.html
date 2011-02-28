@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Raphael Spinner JQuery Plugin Examples</title>
+    <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="raphael-1.5.2.min.js" type="text/javascript"></script>
+    <script src="jquery.raphael.spinner.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function() {
+        $("#default-spinner").spinner();
+        $("#small-spinner").spinner({dashes: 10, innerRadius: 4, outerRadius: 8});
+        $("#large-spinner").spinner({innerRadius: 50, outerRadius: 100, dashes: 40, strokeWidth: 4});
+      });
+    </script>
+  </head>
+  <body>
+    <h2>Default Spinner</h2>
+    <div id="default-spinner"></div>
+    
+    <h2>Small spinner</h2>
+    <div id="small-spinner"></div>
+    
+    <h2>Large Spinner</h2>
+    <div id="large-spinner"></div>
+  </body>
+</html>

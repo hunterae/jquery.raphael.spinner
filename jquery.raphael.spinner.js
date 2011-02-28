@@ -9,9 +9,9 @@
  ******************************************************************************/
 
 /*
-	VERSION: Raphael Spinner jQuery Plugin
+	VERSION: Raphael Spinner jQuery Plugin 1.0
 
-	REQUIRES: jquery.js
+	REQUIRES: jquery.js (tested with 1.4.2), Raphael JS (tested with 1.5.2)
 
 	SYNTAX: $(selector).spinner(options);     // Creates new drop shadows
 
